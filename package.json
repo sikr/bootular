@@ -1,0 +1,27 @@
+{
+  "name": "bootular",
+  "version": "0.0.1",
+  "description": "Base project for Bootstrap UI with AngularJS integration",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sikr/bootular.git"
+  },
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "nav",
+    "navbar",
+    "views",
+    "controller"
+  ],
+  "author": "Simon Kruska",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sikr/bootular/issues"
+  },
+  "homepage": "https://github.com/sikr/bootular#readme"
+}
