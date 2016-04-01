@@ -1,0 +1,33 @@
+{
+  "name": "bootular",
+  "main": "index.html",
+  "authors": [
+    "simon.kruska@googlemail.com"
+  ],
+  "description": "Base project for Bootstrap UI with AngularJS integration",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "nav",
+    "navbar",
+    "views",
+    "controller"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.3",
+    "jquery": "^2.2.2",
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6"
+  }
+}

@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Fixed Top Navbar Example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootular.css" rel="stylesheet">
+
+  </head>
+
+  <body ng-app="bootular">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand">Foobar Baz!</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" ng-controller="HeaderController">
+          <ul class="nav navbar-nav">
+            <li ng-class="{ active: isActive('/home')}"><a href="#/home">Home</a></li>
+            <li ng-class="{ active: isActive('/data')}"><a href="#/data">Data</a></li>
+            <li ng-class="{ active: isActive('/graphs')}"><a href="#/graphs">Graphs</a></li>
+            <li ng-class="{ active: isActive('/administration')}"><a href="#/administration">Administration</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /navbar -->
+
+    <!-- main content -->
+    <div class="container" ng-view>
+    </div>
+    <!-- /main content -->
+
+    <!-- scripts -->
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="index.js"></script>
+    <!-- /scripts -->
+  </body>
+</html>
